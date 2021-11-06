@@ -2,7 +2,7 @@
 #include "Engine.h"
 
 /*
- This can be done by hooking the actual function itself instead of waiting on process event.
+ This can be done by hooking the function itself instead of waiting in process event for the function to be passed.
  This is the function we will be looking into.
  Class Tiger.TigerDisciplineComponent
  Function Tiger.TigerDisciplineComponent.Server_UseDiscipline
