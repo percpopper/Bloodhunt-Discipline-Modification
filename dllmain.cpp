@@ -23,7 +23,7 @@ void __fastcall ProcessEvent(UObject* thisUObject, UFunction* Function, void* Sr
 	if (Function == Server_UseDisciplineUFunction) {
 
 		/*
-			For this location, think of it like a slingshot, if its further from you, your velocity when exiting will be greater.
+			For this location, think of it like a slingshot, if its further from you, your velocity when exiting your ability will be greater.
 			Easy way to use is visualize this location and have controls for moving it or you can do some math based on your characters location and rotation.
 		*/
 
