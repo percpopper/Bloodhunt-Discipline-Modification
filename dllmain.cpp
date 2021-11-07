@@ -16,7 +16,7 @@ void(*OProcessEvent)(UObject*, UFunction*, void*) = nullptr;
 void __fastcall ProcessEvent(UObject* thisUObject, UFunction* Function, void* Src)
 {
 	/*
-		This modifys the parameters when this function is called through process event. Specifically the of the FVectors passed for the use of launching your character.
+		This modifys the parameters when this function is called through process event. Specifically the FVectors passed for the use of launching your character.
 	*/
 
 	// Check if Function Tiger.TigerDisciplineComponent.Server_UseDiscipline is passed as the function.
